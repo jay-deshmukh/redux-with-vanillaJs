@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <title>Hello World!</title>
+      <link rel = "stylesheet" 
+         href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+   </head>
+   
+   <!-- <body style="background-color : black ; color : white"> -->
+    <body>
+      <div class = "container">
+         <h3 id = "click-counter"></h3>
+         <div  style="margin : 0 auto ;">
+            <input id="blockSizeInput" type="number" placeholder="Block Size"><br><hr>        
+         </div>         
+        <table  class="table">
+             <tr>
+                 <th></th>
+                 <th>Sell</th>
+                 <th>Max Blocks</th>
+                 <th>Buy</th>
+                 <th>Max Blocks</th>
+             </tr>
+             <tr>
+                    <th>Tier 1</th>
+                    <td><input id="sellUnit1" type="number" placeholder="sellUnit1"></td>
+                    <td><input id="sellPrice1" type="number" placeholder="sellPrice1"></td>
+                    <td><input id="buyUnit1" type="number" placeholder="buyUnit1"></td>
+                    <td><input id="buyPrice1" type="number" placeholder="buyPrice1"></td>
+             </tr>
+             <tr>
+                    <th>Tier 2</th>
+                    <td><input id="sellUnit2" type="number" placeholder="sellUnit2"></td>
+                    <td><input id="sellPrice2" type="number" placeholder="sellPrice2"></td>
+                    <td><input id="buyUnit2" type="number" placeholder="buyUnit2"></td>
+                    <td><input id="buyPrice2" type="number" placeholder="buyPrice2"></td>
+            </tr>
+            <tr>
+                    <th>Tier 3</th>
+                    <td><input id="sellUnit3" type="number" placeholder="sellUnit3"></td>
+                    <td><input id="sellPrice3" type="number" placeholder="sellPrice3"></td>
+                    <td><input id="buyUnit3" type="number" placeholder="buyUnit3"></td>
+                    <td><input id="buyPrice3" type="number" placeholder="buyPrice3"></td>
+            </tr>
+         </table>
+         <button id="btn" type="button" class="btn btn-success" >Save</button>
+         <script src = "./view.js" ></script>
+      </div>
+    </body>
+</html>
